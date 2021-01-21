@@ -24,11 +24,17 @@
         </a>
       </div>
     </div>
+    <AlbumBooks />
   </div>
 </template>
 
 <script>
-export default {}
+import AlbumBooks from '~/components/page/HelloWorld.vue'
+export default {
+  components: {
+    AlbumBooks
+  }
+}
 </script>
 
 <style>
@@ -42,8 +48,8 @@ export default {}
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* align-items: center; */
+  /* text-align: center; */
 }
 
 .title {

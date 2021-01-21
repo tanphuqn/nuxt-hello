@@ -1,4 +1,11 @@
-# nuxt-hello
+# Intro nuxt-hello project
+
+Apply Nuxt with Atomic design methodology. Beside that Project use other technicals, such as:
+
+- Vue js
+- Nuxt
+- Tailwindcss
+- Jest
 
 ## Prerequisites
 
